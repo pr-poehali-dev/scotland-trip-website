@@ -61,6 +61,11 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				highland: {
+					green: '#2D5F3F',
+					brown: '#8B4513',
+					blue: '#4682B4'
 				}
 			},
 			borderRadius: {
