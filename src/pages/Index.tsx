@@ -204,6 +204,105 @@ export default function Index() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section className="py-20 bg-gradient-to-br from-highland-green/5 to-highland-blue/5">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-8">
+              <div className="space-y-4">
+                <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+                  Знакомьтесь —
+                  <span className="text-highland-green block">наша команда</span>
+                </h2>
+                <p className="text-xl text-slate-600 leading-relaxed">
+                  Тима и Тёма — опытные гиды и путешественники, влюбленные в Шотландию. 
+                  Мы знаем каждый замок, каждую тропу и каждую легенду этой удивительной страны.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-2 gap-6">
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <div className="flex items-center space-x-3 mb-3">
+                    <div className="w-12 h-12 bg-highland-green/10 rounded-full flex items-center justify-center">
+                      <Icon name="Award" className="text-highland-green" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-slate-900">Опыт</h3>
+                      <p className="text-highland-green">5+ лет</p>
+                    </div>
+                  </div>
+                  <p className="text-slate-600 text-sm">Проводим туры по Шотландии с 2019 года</p>
+                </div>
+
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <div className="flex items-center space-x-3 mb-3">
+                    <div className="w-12 h-12 bg-highland-blue/10 rounded-full flex items-center justify-center">
+                      <Icon name="Users" className="text-highland-blue" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-slate-900">Клиенты</h3>
+                      <p className="text-highland-blue">150+</p>
+                    </div>
+                  </div>
+                  <p className="text-slate-600 text-sm">Довольных путешественников</p>
+                </div>
+
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <div className="flex items-center space-x-3 mb-3">
+                    <div className="w-12 h-12 bg-highland-green/10 rounded-full flex items-center justify-center">
+                      <Icon name="MapPin" className="text-highland-green" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-slate-900">Маршруты</h3>
+                      <p className="text-highland-green">25+</p>
+                    </div>
+                  </div>
+                  <p className="text-slate-600 text-sm">Уникальных туров по Шотландии</p>
+                </div>
+
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <div className="flex items-center space-x-3 mb-3">
+                    <div className="w-12 h-12 bg-highland-blue/10 rounded-full flex items-center justify-center">
+                      <Icon name="Heart" className="text-highland-blue" size={24} />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-slate-900">Подход</h3>
+                      <p className="text-highland-blue">С душой</p>
+                    </div>
+                  </div>
+                  <p className="text-slate-600 text-sm">Индивидуальный подход к каждому</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src="https://cdn.poehali.dev/files/ea152d18-f0cb-473e-be51-e94b6bfd9127.jpg"
+                  alt="Тима на качелях в шотландских горах"
+                  className="w-full h-[600px] object-cover"
+                />
+                <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg p-4">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-12 h-12 bg-highland-green rounded-full flex items-center justify-center">
+                      <span className="text-white font-bold text-lg">Т</span>
+                    </div>
+                    <div>
+                      <p className="text-highland-green font-semibold text-lg">Тима</p>
+                      <p className="text-slate-600">Гид-исследователь • Любитель приключений</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Декоративные элементы */}
+              <div className="absolute -top-6 -right-6 w-24 h-24 bg-highland-green/20 rounded-full blur-xl"></div>
+              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-highland-blue/20 rounded-full blur-xl"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Reviews Section */}
       <section id="reviews" className="py-20">
         <div className="container mx-auto px-4">
